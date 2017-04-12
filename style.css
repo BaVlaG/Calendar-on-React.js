@@ -1,0 +1,66 @@
+
+html,
+body{
+	height: 100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+#calendar{
+	width:1000px;
+	height:340px;
+	overflow:hidden;
+	position:relative;
+	left:50%;
+	top:5vh;
+	transform:translateX(-50%);
+	z-index:1;
+}
+
+.Wrap{
+	width:371px;
+	margin:0 auto;
+}
+
+select{
+	margin-right:5px;
+}
+
+.calendar{
+	width:371px;
+	height:100%;
+	background-color:#535353;
+}
+
+.cell{
+	width:53px;
+	height:45px;
+	display:inline-block;
+	text-align:center;
+	line-height:300%;
+	color:#E0E0E0;
+}
+
+.prevAndNext{
+	color:#929294;
+}
+
+.today{
+	display:inline-block;
+	width:41px;
+	height:34px;
+	border:solid black 2px;
+	margin-top:3px;
+}
+
+.text{
+	position:relative;
+	top:-6px;
+}
+
+
+
+
+
+

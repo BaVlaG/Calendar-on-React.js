@@ -1,0 +1,14 @@
+{
+  "name": "helloapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "lite-server": "^2.2.2"
+  }
+}
